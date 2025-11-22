@@ -1,5 +1,6 @@
 # 选择基础镜像
-FROM swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/openjdk:21-linuxarm64
+# FROM swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/openjdk:21-linuxarm64
+FROM swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/openjdk:21
 
 # 设置时区为上海（Asia/Shanghai）
 ENV TZ=Asia/Shanghai
